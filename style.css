@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
-    font-family: 'Poppins', sans-serif;
+
     position: justify;
 }
 
@@ -31,4 +32,71 @@ a {
     font-weight: 700;
     border-radius: 5px;
     padding: 20px 30px;
+}
+
+.donate-items h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.donate-items h3 {
+    text-align: center;
+    color: gray;
+}
+
+
+ul {
+
+    display: flex;
+    font-size: 25px;
+    color: gray;
+    margin-left: 30%;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+    width: 70px;
+}
+
+.special {
+    background-color: rgb(238, 203, 203);
+    color: tomato;
+    margin-left: 80%;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: 5px solid tomato;
+    width: 70px;
+}
+
+.amonut-items {
+    display: flex;
+    font-size: 25px;
+    color: gray;
+    margin-left: 40%;
+    padding-left: 40px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+    width: 70px;
+}
+
+.donate-items p {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+
+
+}
+
+.donate-items a {
+    text-decoration: none;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 45%;
 }
