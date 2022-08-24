@@ -19,6 +19,7 @@ body {
     font-size: 70px;
     color: white;
     text-align: center;
+
 }
 
 .text-button {
@@ -32,6 +33,7 @@ a {
     font-weight: 700;
     border-radius: 5px;
     padding: 20px 30px;
+
 }
 
 .donate-items h1 {
@@ -44,7 +46,9 @@ a {
 .donate-items h3 {
     text-align: center;
     color: gray;
+    font-weight: 400;
 }
+
 
 
 ul {
@@ -111,6 +115,7 @@ ul {
 .plan-item h3 {
     text-align: center;
     color: gray;
+    font-weight: 400;
 }
 
 .all-plan-items {
@@ -145,4 +150,45 @@ ul {
     padding: 50px 30px;
     margin-top: 5%;
     margin-left: 7%;
+}
+
+.update-area h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.update-area h3 {
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+
+form {
+    background-color: rgb(255, 252, 220);
+    width: 30%;
+    height: 7%;
+    margin-left: 25%;
+    padding: 10%;
+    align-items: center;
+}
+
+input {
+
+    background-color: rgb(216, 212, 212);
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+button {
+
+    border: none;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 20px;
+
 }
